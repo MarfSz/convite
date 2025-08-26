@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: url('fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.icone {
+  text-align: center;
+}
+
+.icone img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.icone p {
+  margin-top: 8px;
+  font-size: 1em;
+  transform: translateX(-2px);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  .intro {
+    font-size: 1em;
+  }
+  .data {
+    font-size: 1.2em;
+  }
+  .icone img {
+    width: 55px;
+    height: 55px;
+  }
+  .icones {
+    gap: 30px;
+  }
+  .footer {
+    font-size: 1em;
+    margin-top: 20px;
+  }
+}
